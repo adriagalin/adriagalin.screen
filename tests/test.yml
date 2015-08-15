@@ -1,0 +1,6 @@
+# test file for adriagalin.screen
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - adriagalin.screen

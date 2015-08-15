@@ -1,0 +1,5 @@
+---
+# tasks file for adriagalin.screen
+- name: Install screen package
+  apt: name=screen state=latest update_cache=yes cache_valid_time=3600
+  tags: [ 'screen', 'common' ]

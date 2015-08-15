@@ -1,0 +1,5 @@
+---
+# tasks file for adriagalin.screen
+- name: Copy screen configuration
+  template: src=etc/screenrc.j2 dest={{ ansible_env.HOME }}/.screenrc owner=root group=root mode=0644
+  tags: [ 'screen', 'common' ]
