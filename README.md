@@ -1,7 +1,7 @@
 adriagalin.screen
 =========
 
-[![Build Status](https://travis-ci.org/adriagalin/adriagalin.screen.svg?branch=master)](https://travis-ci.org/adriagalin/adriagalin.screen) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-screen-blue.svg)](https://galaxy.ansible.com/list#/roles/4778)
+[![Build Status](https://travis-ci.org/adriagalin/ansible.screen.svg?branch=master)](https://travis-ci.org/adriagalin/ansible.screen) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-screen-blue.svg)](https://galaxy.ansible.com/list#/roles/4778)
 
 An ansible role for configuring screen.
 
