@@ -22,6 +22,14 @@ Role Variables
 
 ```yaml
 ag_screen_startup_message: enable/disable screen startup message
+
+ag_screenrc_destinations:
+  current:
+    dest: "{{ ansible_env.HOME }}"
+  vagrant:
+    dest: /home/vagrant
+    owner: vagrant
+    group: vagrant
 ```
 
 Dependencies

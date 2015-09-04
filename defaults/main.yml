@@ -1,3 +1,8 @@
 ---
 # defaults file for adriagalin.screen
 ag_screen_startup_message: false
+
+# defaults file for screen
+ag_scrennrc_destinations:
+  current:
+    dest: "{{ ansible_env.HOME }}"

@@ -1,5 +1,11 @@
 ---
 # tasks file for adriagalin.screen
 - name: Copy screen configuration
-  template: src=etc/screenrc.j2 dest={{ ansible_env.HOME }}/.screenrc owner=root group=root mode=0644
+  template:
+    src: etc/screenrc.j2
+    dest: "{{ item.value.dest }}/.screenrc"
+    owner: "{{ item.value.owner | default('root') }}"
+    group: "{{ item.value.group | default(item.value.owner) | default('root') }}"
+    mode: "{{ item.value.mode | default('0644') }}"
+  with_dict: ag_screenrc_destinations
   tags: [ 'screen', 'common' ]
