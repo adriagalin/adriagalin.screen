@@ -3,6 +3,6 @@
 ag_screen_startup_message: false
 
 # defaults file for screen
-ag_scrennrc_destinations:
+ag_screenrc_destinations:
   current:
-    dest: "{{ ansible_env.HOME }}"
+    dest: "/root"
