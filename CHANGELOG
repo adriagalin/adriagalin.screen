@@ -1,2 +1,7 @@
-1.0.0 15 August 2015 Adria Galin <www.adriagalin.com>
+1.0.0 15 August 2015 Adria Galin <adriagalin.com>
 - Initial release
+
+1.0.1 27 August 2016 Adria Galin <adriagalin.com>
+- Remove unused tags
+- Add webhook in travis config file
+- Update ansible min version in meta.yml file

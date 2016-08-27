@@ -1,5 +1,5 @@
 adriagalin.screen
-=========
+=================
 
 [![Build Status](https://travis-ci.org/adriagalin/ansible.screen.svg?branch=master)](https://travis-ci.org/adriagalin/ansible.screen) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-screen-blue.svg)](https://galaxy.ansible.com/list#/roles/4992)
 
@@ -10,12 +10,12 @@ Requirements
 
 Tested on:
 
-Ubuntu 14.04 LTS
+-	>= Ubuntu 14.04 LTS
 
 Should work with:
 
-All Ubuntu
-All Debian
+-	All Ubuntu
+-	All Debian
 
 Role Variables
 --------------
@@ -39,6 +39,7 @@ None.
 
 Example Playbook
 ----------------
+
 ```yaml
     - hosts: servers
       roles:
@@ -46,9 +47,10 @@ Example Playbook
 ```
 
 ToDo
--------
-- Add per user configuration.
-- Add more screen custom configurations.
+----
+
+-	Add per user configuration.
+-	Add more screen custom configurations.
 
 License
 -------
@@ -61,10 +63,10 @@ Author Information
 [Adria Galin](http://www.adriagalin.com)
 
 Inspiration
-------------------
+-----------
 
 During development, some roles in Ansible Galaxy/Github also inspired me:
 
-  - [tersmitten](https://github.com/Oefenweb/ansible-screen)
+-	[tersmitten](https://github.com/Oefenweb/ansible-screen)
 
-  thank you.
+thank you.
