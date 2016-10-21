@@ -7,4 +7,4 @@
     owner: "{{ item.value.owner | default('root') }}"
     group: "{{ item.value.group | default(item.value.owner) | default('root') }}"
     mode: "{{ item.value.mode | default('0644') }}"
-  with_dict: ag_screenrc_destinations
+  with_dict: "{{ ag_screenrc_destinations }}"
