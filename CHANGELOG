@@ -5,3 +5,6 @@
 - Remove unused tags
 - Add webhook in travis config file
 - Update ansible min version in meta.yml file
+
+1.0.2 21 Octuber 2016 Adria Galin <adriagalin.com>
+- Fix DEPRECATION WARNING
