@@ -8,3 +8,7 @@
 
 1.0.2 21 Octuber 2016 Adria Galin <adriagalin.com>
 - Fix DEPRECATION WARNING
+
+2.0.0
+- Breaking change: now requires Ansible 2.5+
+- Fixes syntax
