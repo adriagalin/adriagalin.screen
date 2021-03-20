@@ -17,6 +17,6 @@
 - Breaking change: now requires Ansible 2.9+
 - Fixes syntax
 
-3.0.1
+3.1.0
 - Update docs
 - Remove apt cache update
