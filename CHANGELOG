@@ -12,3 +12,7 @@
 2.0.0
 - Breaking change: now requires Ansible 2.5+
 - Fixes syntax
+
+3.0.0
+- Breaking change: now requires Ansible 2.9+
+- Fixes syntax

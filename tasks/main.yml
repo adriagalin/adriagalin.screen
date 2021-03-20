@@ -1,6 +1,6 @@
 ---
 # tasks file for adriagalin.screen
 - include: install.yml
-  tags: [ 'screen', 'common' ]
+  tags: ["screen", "common"]
 - include: config.yml
-  tags: [ 'screen', 'common' ]
+  tags: ["screen", "common"]
