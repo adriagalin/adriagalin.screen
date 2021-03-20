@@ -16,3 +16,7 @@
 3.0.0
 - Breaking change: now requires Ansible 2.9+
 - Fixes syntax
+
+3.0.1
+- Update docs
+- Remove apt cache update
