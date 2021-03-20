@@ -10,7 +10,9 @@ Requirements
 
 Tested on:
 
--	>= Ubuntu 16.04 LTS
+-	Ubuntu 16.04 LTS
+-	Ubuntu 18.04 LTS
+-	Ubuntu 20.04 LTS
 
 Should work with:
 
